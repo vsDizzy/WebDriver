@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+	<assemblyIdentity type="win32" name="Microsoft-Windows-IE-WebDriver" version="6.3.9600.17326"
+	                  publicKeyToken="31bf3856ad364e35" processorArchitecture="x86" />
+	<file name="iewebdriver.dll">
+		<comClass clsid="{90314AF2-5250-47B3-89D8-6295FC23BC22}" threadingModel="Apartment"
+		          tlbid="{B7BBFE94-693D-48EE-B236-A189FBB69937}" progid="IEWebDriver.IEWebDriverManager" />
+		<typelib tlbid="{B7BBFE94-693D-48EE-B236-A189FBB69937}" version="1.0" helpdir="" />
+	</file>
+	<comInterfaceExternalProxyStub name="IIEWebDriverManager" iid="{BD1DC630-6590-4CA2-A293-6BC72B2438D8}"
+	                               proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+	                               tlbid="{B7BBFE94-693D-48EE-B236-A189FBB69937}" />
+	<comInterfaceExternalProxyStub name="IIEWebDriverSite" iid="{FFB84444-453D-4FBC-9F9D-8DB5C471EC75}"
+	                               proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"
+	                               tlbid="{B7BBFE94-693D-48EE-B236-A189FBB69937}" />
+</assembly>
