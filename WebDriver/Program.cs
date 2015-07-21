@@ -1,4 +1,5 @@
-﻿using IEWebDriverLib;
+﻿using System;
+using IEWebDriverLib;
 
 namespace WebDriver
 {
@@ -11,6 +12,7 @@ namespace WebDriver
 			var wd = new IEWebDriverManager();
 			string response;
 			wd.ExecuteCommand(cmd, out response);
+			Console.WriteLine(response);
 		}
 	}
 }
